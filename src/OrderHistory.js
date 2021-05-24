@@ -1,13 +1,13 @@
 import React from 'react';
 import PageHeader from './PageHeader';
-import OrderHistoryItem from './OrderHistoryItem';
+import HistoryItems from './HistoryItems';
 
 const OrderHistory = () => {
   return (
     <div className="columns is-multiline">
       <PageHeader title="Order History" />
 
-      <OrderHistoryItem />
+      <HistoryItems />
     </div>
   );
 };
